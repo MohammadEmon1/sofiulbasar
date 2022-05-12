@@ -1,0 +1,289 @@
+/* ============== Nav bar start========== */
+nav {
+    padding-top: 30px;
+    background: #f4f2f0;
+}
+
+.navicon h1 {
+    color: black;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: right;
+}
+
+nav .naviteam ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav .naviteam ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    background: #f4f2f0;
+    padding: 10px 20px;
+
+    opacity: 1;
+}
+
+nav .naviteam ul li {
+    margin-left: 25px;
+}
+
+nav .naviteam ul li a:hover {
+    border: 2px solid #1769ff;
+    border-radius: 20px;
+}
+
+/* ============== Nav bar  End========== */
+
+
+/* ---------------- Banner part start------------------ */
+#Bannerpart {
+    background: #f4f2f0;
+}
+
+#Bannerpart .bannertext h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #333333;
+    padding-top: 183px;
+
+}
+
+#Bannerpart .bannertext h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #333333;
+    padding-top: 35px;
+}
+
+#Bannerpart .bannertext p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    padding-right: 150px;
+    padding-top: 35px;
+}
+
+button {
+    background: #db1596;
+    color: rgb(252, 249, 243);
+    padding: 10px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+button:hover {
+    background: #1769ff;
+    color: rgb(252, 249, 243);
+}
+
+/* ---------------- Banner part  End------------------ */
+
+
+/*  ==================== Service part start ================= */
+#servicepart {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+#servicepart .servicetext {
+    text-align: center;
+}
+
+#servicepart .seriteam {
+    text-align: center;
+    margin-top: 55px;
+}
+
+#servicepart .seriteam:hover {
+    background: #1769ff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+#servicepart .seriteam i {
+    font-size: 25px;
+}
+
+#servicepart .seriteam h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px
+}
+
+#servicepart .seriteam .line {
+    margin-top: 10px;
+    height: 3px;
+    width: 50px;
+    background: #c42e45;
+    margin-left: 183px;
+}
+
+#servicepart .seriteam p {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-left: 65px;
+    padding-right: 81px;
+}
+
+#servicepart .middlespace {
+    margin-top: 50px;
+}
+
+/*  ==================== Service part  End ================= */
+
+/* ========================= Protfolio part start =================  */
+#protfolio {
+    background: #f7f2f2;
+    padding-bottom: 50px;
+}
+
+#protfolio .prottext {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#protfolio .protmain {
+    margin-top: 55px;
+}
+
+#protfolio .protmain .protitem {
+    position: relative;
+
+}
+#protfolio .protmain .protitem img{
+    width: 100%;
+    height: 100%;
+}
+#protfolio .protmain .protitem .overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.648);
+    transition: .4s;
+    opacity: 0;
+}
+
+#protfolio .protmain .protitem:hover .overly{
+    opacity: 1;
+}
+#protfolio .protmain .protitem .overly h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 167px;
+    text-align: center;
+}
+#protfolio .protmain .protitem .overly .prtbtn {
+	margin-left: 162px;
+	margin-top: 25px;
+}
+/* ========================= Protfolio part  End =================  */
+
+
+/* ========================= Hire me part ===================== */
+#hriemepart {
+    height: 200px;
+}
+
+#hriemepart .hiremetext h2 {
+    padding-top: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    color: #333333;
+}
+
+#hriemepart .hiremetext p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #777777;
+    padding-right: 45px;
+}
+
+#hriemepart .hmebttn {
+    margin-top: 102px;
+    margin-left: 171px;
+}
+
+/* ========================= Hire me  End ===================== */
+
+/* ======================= Footer part start ================= */
+#footerpart {
+    padding-bottom: 15px;
+    background: #f4f2f0;
+}
+
+#footerpart .foticon {
+    padding-left: 103px;
+}
+
+#footerpart .foticon h1 {
+    padding-top: 50px;
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#footerpart .foticon p {
+    font-size: 18px;
+    padding-top: 70px;
+}
+
+#footerpart .fotitem {
+    margin-left: 25px;
+}
+
+#footerpart .fotitem ul{
+    list-style-type: none;
+
+}
+#footerpart .fotitem ul li{
+    padding-top: 45px;
+}
+#footerpart .fotitem ul li a{
+	margin-left: 45px;
+	font-size: 35px;
+	color: #fff;
+	background: #3B579B;
+	padding: 11px 17px;
+	border-radius: 51px;
+    transition: .4s;
+}
+
+#footerpart .fotitem ul li a:hover{
+    background: rgb(245, 9, 139) ;
+    color: #fafbfd;
+}
+#footerpart .basicdata {
+	padding-left: 73px;
+	padding-top: 28px;
+}
+#footerpart .basicdata ul li{
+ list-style-type: none;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 25px;
+ font-weight: 500;
+}
+
+#footerpart .copyrightextt{
+    padding-top: 15px;
+    text-align: center;
+}
+#footerpart .copyrightextt h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ======================= Footer part  End ================= */
